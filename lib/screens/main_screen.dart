@@ -43,16 +43,16 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen> {
                                         fontSize: 25,
                                         color: Colors.white),
                                     children: [
-                                  TextSpan(
-                                      text: isSignupScreen
-                                          ? ' to EOS Chat'
-                                          : ' back',
-                                      style: TextStyle(
-                                          letterSpacing: 1.0,
-                                          fontSize: 25,
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.bold))
-                                ])),
+                                      TextSpan(
+                                          text: isSignupScreen
+                                              ? ' to EOS Chat'
+                                              : ' back',
+                                          style: TextStyle(
+                                              letterSpacing: 1.0,
+                                              fontSize: 25,
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold))
+                                    ])),
                             SizedBox(
                               height: 5.0,
                             ),
@@ -65,7 +65,7 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen> {
                           ],
                         )))),
             Positioned(
-                // 가운데 하얀 바탕이 되는 container
+              // 가운데 하얀 바탕이 되는 container
                 top: 180,
                 child: AnimatedContainer(
                   height: isSignupScreen ? 320.0 : 290.0,
@@ -156,18 +156,18 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen> {
                                         hintStyle: TextStyle(
                                             color: Palette.textColor1),
                                         prefixIcon:
-                                            Icon(Icons.account_circle_rounded),
+                                        Icon(Icons.account_circle_rounded),
                                         prefixIconColor: Palette.iconColor,
                                         enabledBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
                                                 color: Palette.textColor1),
                                             borderRadius:
-                                                BorderRadius.circular(35.0)),
+                                            BorderRadius.circular(35.0)),
                                         focusedBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
                                                 color: Palette.textColor1),
                                             borderRadius:
-                                                BorderRadius.circular(35.0)))),
+                                            BorderRadius.circular(35.0)))),
                               const SizedBox(
                                 height: 8,
                               ),
@@ -175,19 +175,19 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen> {
                                   decoration: InputDecoration(
                                       hintText: 'email',
                                       hintStyle:
-                                          TextStyle(color: Palette.textColor1),
+                                      TextStyle(color: Palette.textColor1),
                                       prefixIcon: Icon(Icons.mail),
                                       prefixIconColor: Palette.iconColor,
                                       enabledBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
                                               color: Palette.textColor1),
                                           borderRadius:
-                                              BorderRadius.circular(35.0)),
+                                          BorderRadius.circular(35.0)),
                                       focusedBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
                                               color: Palette.textColor1),
                                           borderRadius:
-                                              BorderRadius.circular(35.0)))),
+                                          BorderRadius.circular(35.0)))),
                               const SizedBox(
                                 height: 8,
                               ),
@@ -195,19 +195,19 @@ class _LoginSignUpScreenState extends State<LoginSignUpScreen> {
                                   decoration: InputDecoration(
                                       hintText: 'password',
                                       hintStyle:
-                                          TextStyle(color: Palette.textColor1),
+                                      TextStyle(color: Palette.textColor1),
                                       prefixIcon: Icon(Icons.lock),
                                       prefixIconColor: Palette.iconColor,
                                       enabledBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
                                               color: Palette.textColor1),
                                           borderRadius:
-                                              BorderRadius.circular(35.0)),
+                                          BorderRadius.circular(35.0)),
                                       focusedBorder: OutlineInputBorder(
                                           borderSide: BorderSide(
                                               color: Palette.textColor1),
                                           borderRadius:
-                                              BorderRadius.circular(35.0)))),
+                                          BorderRadius.circular(35.0)))),
                             ],
                           ),
                         ),

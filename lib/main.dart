@@ -1,4 +1,5 @@
 import 'package:eos_chatting/chatting/chat/chat_bubble.dart';
+import 'package:eos_chatting/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:eos_chatting/main.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
 
         title: 'Chatting App',
-        home: ChatScreen() // TODO : 알맞은 위젯 채우기
+        home: ChatScreen() ,// TODO : 알맞은 위젯 채우기
       //원해는 LoginSignUpScreen
     );
   }
